@@ -1,0 +1,24 @@
+void setup() {
+pinmode(5,output);
+pinmode(8,output);
+pinmode(10,output);
+pinmode(13,output):
+
+
+}
+
+void loop() {
+digitalwriter(13,HIGH);
+delay(1000);
+digitalwriter(13,LOW);
+digitalwriter(10,HIGH );
+delay(1000);
+digitalwriter(10,LOW);
+digitalwriter(8,HIGH);
+delay(1000);
+digitalwriter(8,LOW);
+digitalwriter(5,HIGH);
+delay(1000);
+digitalwriter(5,LOW);
+
+}
